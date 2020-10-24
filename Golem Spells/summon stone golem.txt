@@ -1,0 +1,32 @@
+[
+  {
+    "id": "summon_stone_golem",
+    "type": "SPELL",
+    "name": "Summon stone Golem",
+    "description": "A hardy stone golem chissels from chunks of the stones to fight for you.  You may be able to summon more with a higher level in this spell.",
+    "valid_targets": [ "ground" ],
+    "min_damage": 1,
+    "max_damage": 3,
+    "//": "level 20 will max out your number of summons",
+    "damage_increment": 0.1,
+    "components": "spell_components_SummonGollemstone",
+    "max_level": 30,
+    "difficulty": 5,
+    "spell_class": "EARTHSHAPER",
+    "effect": "summon",
+    "effect_str": ""mon_stonegolem",
+    "shape": "blast",
+    "energy_source": "MANA",
+    "base_energy_cost": 850,
+    "//2": "one minute",
+    "base_casting_time": 6000,
+    "min_range": 3,
+    "max_range": 3,
+    "min_aoe": 2,
+    "max_aoe": 2,
+    "flags": [ "SOMATIC", "VERBAL", "CONCENTRATE" ],
+    "min_duration": 30000,
+    "max_duration": 150000,
+    "duration_increment": 4000
+ }
+]

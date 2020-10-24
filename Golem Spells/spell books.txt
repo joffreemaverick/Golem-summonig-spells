@@ -1,0 +1,15 @@
+[
+  {
+    "id": "Golems_up_spellbook",
+    "type": "BOOK",
+    "name": { "str": "Golems for world domination", "str_pl": "copies of Transcendence of the Human Condition" },
+    "//": "4 Earth shaper spells",
+    "description": "Golems are the basic go getter of all wizards. Formed from the basic resources of our world, given magical life to do thy bidding.",
+    "weight": "1300 g",
+    "volume": "2500 ml",
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "black",
+    "use_action": { "type": "learn_spell", "spells": [ "summon_clay_golem", "summon_stone_golem", "summon_plastic_golem", "summon_iron_golem" ] }
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "spell_components_SummonGolemClay",
+    "type": "requirement",
+    "//": "clay of which golems ca be summoned",
+    "components": [ [ [ "clay_lump", 40 ] ] ]
+  },
+  {
+    "id": "spell_components_SummonGolemPlasic",
+    "type": "requirement",
+    "//": "plastic of which golems ca be summoned",
+    "components": [ [ [ "plastic_chunk", 40 ] ] ]
+
+  },
+  {
+    "id": "spell_components_SummonGolemIron",
+    "type": "requirement",
+    "//": "Iron alloy of which the golem ca be summoned",
+    "components": [ [ [ "steel_chunk", 40 ], [ "steel_lump", 10 ] ] ]
+  },
+  {
+    "id": "spell_components_SummonGolemStone",
+    "type": "requirement",
+    "//": "stone of which golems can be summoned",
+    "components": [ [ [ "rock_flaking", 35 ] ] ]
+  }
+]
+ 
+ 
